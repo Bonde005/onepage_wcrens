@@ -1,0 +1,17 @@
+
+
+/* en del der kun gælder hvis skærmen er over 500 pixels */ 
+
+@media screen and (min-width: 501px) {
+    
+    #pagewrap {
+        display: grid;
+        grid-gap: 0.5em;
+    }
+    
+@media screen and (min-width: 1000px) {
+    
+    #pagewrap {
+        display: grid;
+        grid-gap: 0.5em;
+    }
