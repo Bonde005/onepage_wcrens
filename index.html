@@ -77,9 +77,33 @@
                 <h2>De miljøvenlige</h2>
                 <p>I denne sektion kigger vi på de miljøvenlige wc-rens produkter. Disse produkter vil let klare arbejdet og du kan købe dem med god samvittighed, da du formindsker risikoen for at skade miljøet i form af, skrald, plasttyper og eventuelle restkemikalier som kan ende i naturen.</p>
                 <p>Gennemsnitlig pris 25kr.</p>
-                <section id="billeder venlige">
+                <section id="billeder_venlige">
+                    <div class="column">
                     <img src="Billeder/w5_ecorens.jpg" alt="W5 eco">
+                    </div>
                 </section>
+                <div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 1</div>
+      <img src="Billeder/w5_ecorens.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+    <div class="column">
+      <img class="demo cursor" src="Billeder/w5_ecorens.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nature and sunrise">
+    </div>
+  </div>
+</div>
             </section>
             
             <section id="Dem_i_midten">
@@ -107,3 +131,42 @@
         </div> <!-- pagewrap -->
     </body>
 </html>
+
+<script>
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>

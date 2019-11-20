@@ -1,5 +1,22 @@
 
+#billeder_venlige > .column {
+  padding: 0 8px;
+}
 
+#billeder_venlige:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+.mySlides {
+  display: none;
+}
 /* en del der kun gælder hvis skærmen er over 500 pixels */ 
 
 @media screen and (min-width: 501px) {
