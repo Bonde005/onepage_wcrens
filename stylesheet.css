@@ -1,9 +1,10 @@
 .billeder {
   box-sizing: border-box;
+    width: 100%;
 }
 
 .row > .column {
-  padding: 0 8px;
+  padding: 0 3px;
 }
 
 .row:after {
@@ -14,7 +15,7 @@
 
 .column {
   float: left;
-  width: 25%;
+  width: 15%;
 }
 
 /* The Modal (background) */
