@@ -3,23 +3,23 @@
     width: 100%;
 }
 
-.row > .column, .row_to > .column_to {
+.row > .column, .rowto > .columnto {
   padding: 2.5px 2.5px;
 }
 
-.row:after, .row_to:after {
+.row:after, .rowto:after {
   content: "";
   display: table;
   clear: both;
 }
 
-.column, column_to {
+.column, columnto {
   float: left;
   width: 15%;
 }
 
 /* The Modal (background) */
-.modal, .modal_to {
+.modal, .modalto {
   display: none;
   position: fixed;
   z-index: 1;
@@ -33,7 +33,7 @@
 }
 
 /* Modal Content */
-.modal-content, .modal-content_to {
+.modal-content, .modal-contentto {
   position: relative;
   background-color: #fefefe;
   margin: auto;
@@ -43,7 +43,7 @@
 }
 
 /* The Close Button */
-.close, .close_to {
+.close, .closeto {
   color: white;
   position: absolute;
   top: 10px;
@@ -52,24 +52,24 @@
   font-weight: bold;
 }
 
-.close:hover, .close_to:hover,
-.close:focus, .close_to:focus {
+.close:hover, .closeto:hover,
+.close:focus, .closeto:focus {
   color: #999;
   text-decoration: none;
   cursor: pointer;
 }
 
-.mySlides, .mySlides_to {
+.mySlides, .mySlidesto {
   display: none;
 }
 
-.cursor, .cursor_to {
+.cursor, .cursorto {
   cursor: pointer;
 }
 
 /* Next & previous buttons */
-.prev, .prev_to,
-.next, .next_to {
+.prev, .prevto,
+.next, .nextto {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -86,19 +86,19 @@
 }
 
 /* Position the "next button" to the right */
-.next, .next_to {
+.next, .nextto {
   right: 0;
   border-radius: 3px 0 0 3px;
 }
 
 /* On hover, add a black background color with a little bit see-through */
-.prev:hover, .prev_to:hover,
-.next:hover, .next_to:hover {
+.prev:hover, .prevto:hover,
+.next:hover, .nextto:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Number text (1/3 etc) */
-.numbertext, .numbertext_to {
+.numbertext, .numbertextto {
   color: #f2f2f2;
   font-size: 12px;
   padding: 8px 12px;
@@ -110,27 +110,27 @@ img {
   margin-bottom: -4px;
 }
 
-.caption-container, .caption-container_to {
+.caption-container, .caption-containerto {
   text-align: center;
   background-color: black;
   padding: 2px 16px;
   color: white;
 }
 
-.demo, .demo_to {
+.demo, .demoto {
   opacity: 0.6;
 }
 
-.active, .active_to,
-.demo:hover, .demo_2:hover {
+.active, .activeto,
+.demo:hover, .demoto:hover {
   opacity: 1;
 }
 
-img.hover-shadow {
+img.hover-shadowto {
   transition: 0.3s;
 }
 
-.hover-shadow:hover {
+.hover-shadowto:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -150,4 +150,3 @@ img.hover-shadow {
         display: grid;
         grid-gap: 0.5em;
     }
-dette er en test ja tak
