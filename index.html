@@ -236,7 +236,7 @@
                 <h2>Dem i midten</h2>
                 <p>Disse produkter er på forskelligvis skadelige for miljøet, men samtidig er de enten svanemærket, har en form for miljømærke, ellers har de et allergivenligt mærke. Produkterne indeholder nogle skrappere kemikalier end de miljøvenlige produkter gør, men da produkterne har mindst en af de tidligere nævnte mærker, er produktet knap så skadeligt for dig og/eller dine omgivelser, som de nedenstående produkter kan være.</p>
                 <p>Gennemsnitlig pris 25kr.</p>
-                <section class="billeder_to">
+                <section class="billeder">
                     <div class="row_to">
                         <div class="column_to">
                         <img src="Billeder/midten/bla_shine.jpg" style="width:100%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor_to">
@@ -419,7 +419,7 @@
             </section>
             
             <footer>
-                <p>&copy;Copyright Agnethe Bonde, Katharine Rune og Magnus Queck</p>
+                <p>&copy;Copyright Agnethe Bonde, Katharina Rune og Magnus Queck</p>
                 <p>!!Dette er et studieprojekt og ikke en virkelig side!!</p>
             </footer>
         </div> <!-- pagewrap -->
@@ -465,27 +465,26 @@ function showSlides(n) {
 }
     
 //Nyt script til lightbox til dem i midten//
-    
-function openModal_2() {    
+function openModal_to() {
   document.getElementById("myModal_to").style.display = "block";
 }
 
-function closeModal_2() {
+function closeModal_to() {
   document.getElementById("myModal_to").style.display = "none";
 }
 
-var slideIndex_2 = 1;
+var slideIndex = 1;
 showSlides(slideIndex);
 
-function plusSlides_2(n) {
+function plusSlides_to(n) {
   showSlides(slideIndex += n);
 }
 
-function currentSlide_2(n) {
+function currentSlide_to(n) {
   showSlides(slideIndex = n);
 }
 
-function showSlides_2(n) {
+function showSlides_to(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides_to");
   var dots = document.getElementsByClassName("demo_to");
@@ -502,4 +501,6 @@ function showSlides_2(n) {
   dots[slideIndex-1].className += " active_to";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+
 </script>
