@@ -230,6 +230,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             background-color: transparent;
             grid-area: c;
             padding-left: 2em;
+            padding-right: 2em;
         }
 
 
@@ -237,6 +238,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             background-color: transparent;
             grid-area: d;
             padding-left: 0em;
+            padding-right: 1.5em;
         }
 
 
@@ -244,6 +246,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             background-color: transparent;
             grid-area: e;
             padding-left: 0em;
+            padding-right: 1.5;
         }
 
 
@@ -251,24 +254,28 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             background-color: transparent;
             grid-area: f;
             padding-left: 0em;
+            padding-right: 1.5em
         }
 
         #dem_i_midten {
             background-color: transparent;
             grid-area: g;
             padding-left: 2em;
+            padding-right: 1.5em;
         }
 
         #skadelige {
             background-color: transparent;
             grid-area: h;
             padding-left: 2em;
+            padding-right: 1.5;
         }
 
         #de_venlige {
             background-color: transparent;
             grid-area: i;
             padding-left: 0em;
+            padding-right: 1.5;
         }
 
         #billeder {
@@ -280,6 +287,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             background-color: transparent;
             grid-area: k;
             padding-left: 2em;
+            padding-right: 1.5em;
         }
 
         #billeder_midten {
@@ -291,6 +299,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             background-color: transparent;
             grid-area: m;
             padding-left: 2em;
+            padding-right: 1.5em;
         }
 
         footer {
