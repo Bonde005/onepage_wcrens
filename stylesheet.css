@@ -147,7 +147,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             font-family: 'Didact Gothic', sans-serif;
         }
 
-     
+
 
 
         .billeder {
@@ -178,10 +178,10 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             grid-template-rows: 10fr;
             15fr;
             10fr;
-            grid-template-areas: 
+            grid-template-areas:
                 "a a a a"
-                "a a a a" 
-                "a a a a" 
+                "a a a a"
+                "a a a a"
                 "b b b b"
                 "b b b b"
                 "c c c c"
@@ -206,7 +206,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         }
 
         #overskrift {
-            background-color: red;
+            background-color: #red;
             grid-area: a;
             text-align: center;
             box-shadow:;
@@ -299,10 +299,10 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         }
 
 
-        
 
 
-        /* en del der kun gælder hvis skærmen er over 500 pixels */
+
+        /* en del der kun gï¿½lder hvis skï¿½rmen er over 500 pixels */
 
         @media screen and (min-width: 501px) {
 
