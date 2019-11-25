@@ -171,13 +171,8 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         #pagewrap {
             display: grid;
-            grid-template-columns: 2fr;
-            1fr;
-            1fr;
-            2fr;
-            grid-template-rows: 10fr;
-            15fr;
-            10fr;
+            grid-template-columns: 2fr 1fr 1fr 2fr;
+            grid-template-rows: 10fr 15fr 10fr;
             grid-template-areas:
                 "a a a a"
                 "a a a a"
@@ -305,7 +300,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
 
 
-        /* en del der kun g�lder hvis sk�rmen er over 500 pixels */
+        /* en del der kun gælder hvis skærmen er over 500 pixels */
 
         @media screen and (min-width: 501px) {
 
