@@ -268,7 +268,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         #de_venlige {
             background-color: transparent;
             grid-area: i;
-            padding-left: 2em;
+            padding-left: 0em;
         }
 
         #billeder {
