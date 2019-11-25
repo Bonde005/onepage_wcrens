@@ -145,15 +145,9 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         p, li, ul {
             font-family: 'Didact Gothic', sans-serif;
+            text-align: left;
         }
 
-
-
-
-        .billeder {
-            box-sizing: border-box;
-            width: 100%;
-        }
 
         body {
             background-color: lightblue;
@@ -215,6 +209,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             grid-area: b;
             text-align: center;
             font-size: 99%;
+            padding-left: 2em;
         }
 
         #venlige_symboler {
@@ -231,14 +226,14 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         #blaakrans {
             background-color: transparent;
             grid-area: d;
-            padding-left: 2em;
+            padding-left: 0em;
         }
 
 
         #Ecocert {
             background-color: transparent;
             grid-area: e;
-            padding-left: 2em;
+            padding-left: 0em;
         }
 
 
@@ -288,10 +283,10 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             padding-left: 2em;
         }
 
-        #copyright {
-            grid-area: n;
-            padding-left: 2em;
+        footer {
+            position: fixed;
             background-color: grey;
+            width: 100%;
         }
 
 /* test af comit i atom */
@@ -305,6 +300,31 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             #pagewrap {
                 display: grid;
                 grid-gap: 0.5em;
+                grid-template-areas:
+                    "a a a a"
+                    "a a a a"
+                    "a a a a"
+                    "b b b b"
+                    "b b b b"
+                    "c c c c"
+                    "c c c c"
+                    "d d d d"
+                    "d d d d"
+                    "e e e e"
+                    "e e e e"
+                    "f f f f"
+                    "f f f f"
+                    "g g g g"
+                    "g g g g"
+                    "h h h h"
+                    "h h h h"
+                    "i i i i"
+                    "j j j j"
+                    "k k k k"
+                    "l l l l"
+                    "m m m m"
+                    "n n n n"
+                    "n n n n";
             }
 
             @media screen and (min-width: 1000px) {
