@@ -149,13 +149,6 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         }
 
 
-
-
-        .billeder {
-            box-sizing: border-box;
-            width: 80%;
-        }
-
         body {
             background-color: lightblue;
             padding-left: 6em;
@@ -225,35 +218,32 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             padding-left: 2em;
         }
 
-        #venlige_symboler {
-            padding-left: 2em;
-        }
 
         #svane: {
             background-color: transparent;
             grid-area: c;
-            padding-left: 2em;
+            padding-left: 40em;
         }
 
 
         #blaakrans {
             background-color: transparent;
             grid-area: d;
-            padding-left: 0em;
+            padding-left: 2em;
         }
 
 
         #Ecocert {
             background-color: transparent;
             grid-area: e;
-            padding-left: 0em;
+            padding-left: 2em;
         }
 
 
         #solsikke {
             background-color: transparent;
             grid-area: f;
-            padding-left: 0em;
+            padding-left: 2em;
         }
 
         #dem_i_midten {
@@ -300,6 +290,9 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             position: fixed;
             background-color: grey;
             width: 100%;
+            bottom: 0;
+            left: 0;
+            font-size: 0.75em;
         }
 
 /* test af comit i atom */
@@ -338,6 +331,8 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
                     "m m m m"
                     "n n n n"
                     "n n n n";
+
+            background-color: #b0a9de;
             }
 
             @media screen and (min-width: 1000px) {
