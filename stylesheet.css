@@ -152,7 +152,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         .billeder {
             box-sizing: border-box;
-            width: 100%;
+            width: 80%;
         }
 
         body {
@@ -211,7 +211,9 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             text-align: center;
             box-shadow:;
             border-style: outset;
-            outline-color:;
+            outline-color:black;
+            outline-width: thick;
+            box-decoration-break: slice;
         }
 
 
