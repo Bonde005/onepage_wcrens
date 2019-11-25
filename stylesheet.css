@@ -235,21 +235,21 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         #blaakrans {
             background-color: transparent;
             grid-area: d;
-            padding-left: 2em;
+            padding-left: 0em;
         }
 
 
         #Ecocert {
             background-color: transparent;
             grid-area: e;
-            padding-left: 2em;
+            padding-left: 0em;
         }
 
 
         #solsikke {
             background-color: transparent;
             grid-area: f;
-            padding-left: 2em;
+            padding-left: 0em;
         }
 
         #dem_i_midten {
