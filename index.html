@@ -501,6 +501,44 @@ function showSlidesll(n) {
   slidesll[slideIndexll-1].style.display = "block";
   dotsll[slideIndexll-1].className += " activell";
   captionTextll.innerHTML = dotsll[slideIndexll-1].alt;
+    
+//Lightbox til de farlige //
+
+function openModallll() {
+  document.getElementById("myModallll").style.display = "block";
+}
+
+function closeModallll() {
+  document.getElementById("myModallll").style.display = "none";
+}
+
+var slideIndexlll = 1;
+showSlideslll(slideIndexlll);
+
+function plusSlideslll(n) {
+  showSlideslll(slideIndexlll += n);
+}
+
+function currentSlidelll(n) {
+  showSlideslll(slideIndexlll = n);
+}
+
+function showSlideslll(n) {
+  var illl;
+  var slideslll = document.getElementsByClassName("mySlideslll");
+  var dotslll = document.getElementsByClassName("demolll");
+  var captionTextlll = document.getElementById("captionlll");
+  if (n > slideslll.length) {slideIndexlll = 1}
+  if (n < 1) {slideIndexlll = slideslll.length}
+  for (illl = 0; illl < slideslll.length; illl++) {
+      slideslll[ill].style.display = "none";
+  }
+  for (illl = 0; illl < dotsll.length; illl++) {
+      dotsll[illl].className = dotsll[illl].className.replace(" activelll", "");
+  }
+  slideslll[slideIndexlll-1].style.display = "block";
+  dotslll[slideIndexlll-1].className += " activelll";
+  captionTextlll.innerHTML = dotslll[slideIndexlll-1].alt;
 }
 
 </script>
