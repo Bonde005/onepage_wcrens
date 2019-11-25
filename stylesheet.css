@@ -131,16 +131,189 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 }
 
 
-@media screen and (min-width: 501px) {
-    
-    #pagewrap {
-        display: grid;
-        grid-gap: 0.5em;
-    }
-    
-@media screen and (min-width: 1000px) {
-    
-    #pagewrap {
-        display: grid;
-        grid-gap: 0.5em;
-    }
+
+
+
+
+/* DERPASTES!! */
+
+
+
+        h1, h2 {
+            font-family: 'Josefin Sans', sans-serif;
+        }
+
+        p, li, ul {
+            font-family: 'Didact Gothic', sans-serif;
+        }
+
+     
+
+
+        .billeder {
+            box-sizing: border-box;
+            width: 100%;
+        }
+
+        body {
+            background-color: lightpink;
+            padding-left: 6em;
+            padding-right: 40em;
+        }
+
+
+
+
+        #pagewrap {
+            background-color: cornsilk;
+            padding-right: 34em;
+        }
+
+        #pagewrap {
+            display: grid;
+            grid-template-columns: 2fr;
+            1fr;
+            1fr;
+            2fr;
+            grid-template-rows: 10fr;
+            15fr;
+            10fr;
+            grid-template-areas: 
+                "a a a a"
+                "a a a a" 
+                "a a a a" 
+                "b b b b"
+                "b b b b"
+                "c c c c"
+                "c c c c"
+                "d d d d"
+                "d d d d"
+                "e e e e"
+                "e e e e"
+                "f f f f"
+                "f f f f"
+                "g g g g"
+                "g g g g"
+                "h h h h"
+                "h h h h"
+                "i i i i"
+                "j j j j"
+                "k k k k"
+                "l l l l"
+                "m m m m"
+                "n n n n"
+                "n n n n";
+        }
+
+        #overskrift {
+            background-color: red;
+            grid-area: a;
+            text-align: center;
+            box-shadow:;
+            border-style: outset;
+            outline-color:;
+        }
+
+
+        #indledning {
+            background: transparent;
+            grid-area: b;
+            text-align: center;
+            font-size: 99%;
+        }
+
+        #venlige_symboler {
+            padding-left: 2em;
+        }
+
+        #svane: {
+            background-color: transparent;
+            grid-area: c;
+            padding-left: 2em;
+        }
+
+
+        #blaakrans {
+            background-color: transparent;
+            grid-area: d;
+            padding-left: 2em;
+        }
+
+
+        #Ecocert {
+            background-color: transparent;
+            grid-area: e;
+            padding-left: 2em;
+        }
+
+
+        #solsikke {
+            background-color: transparent;
+            grid-area: f;
+            padding-left: 2em;
+        }
+
+        #dem_i_midten {
+            background-color: transparent;
+            grid-area: g;
+            padding-left: 2em;
+        }
+
+        #skadelige {
+            background-color: transparent;
+            grid-area: h;
+            padding-left: 2em;
+        }
+
+        #de_venlige {
+            background-color: transparent;
+            grid-area: i;
+            padding-left: 2em;
+        }
+
+        #billeder {
+            background-color: transparent;
+            grid-area: j;
+        }
+
+        #midten {
+            background-color: transparent;
+            grid-area: k;
+            padding-left: 2em;
+        }
+
+        #billeder_midten {
+            background-color: transparent;
+            grid-area: l;
+        }
+
+        #faretruende {
+            background-color: transparent;
+            grid-area: m;
+            padding-left: 2em;
+        }
+
+        #copyright {
+            grid-area: n;
+            padding-left: 2em;
+        }
+
+
+        
+
+
+        /* en del der kun gælder hvis skærmen er over 500 pixels */
+
+        @media screen and (min-width: 501px) {
+
+            #pagewrap {
+                display: grid;
+                grid-gap: 0.5em;
+            }
+
+            @media screen and (min-width: 1000px) {
+
+                #pagewrap {
+                    display: grid;
+                    grid-gap: 0.5em;
+                }
