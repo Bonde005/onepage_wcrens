@@ -650,7 +650,9 @@
 </body>
 </html>
 
-<script>function openModal() {
+<script>
+
+function openModal() {
   document.getElementById("myModal").style.display = "block";
 }
 
@@ -724,8 +726,9 @@ function showSlidesll(n) {
   slidesll[slideIndexll-1].style.display = "block";
   dotsll[slideIndexll-1].className += " activell";
   captionTextll.innerHTML = dotsll[slideIndexll-1].alt;
+}
 
-//Lightbox til de farlige //
+// Lightbox til de farlige //
 
 function openModallll() {
   document.getElementById("myModallll").style.display = "block";
@@ -754,12 +757,14 @@ function showSlideslll(n) {
   if (n > slideslll.length) {slideIndexlll = 1}
   if (n < 1) {slideIndexlll = slideslll.length}
   for (illl = 0; illl < slideslll.length; illl++) {
-      slideslll[ill].style.display = "none";
+      slideslll[illl].style.display = "none";
   }
-  for (illl = 0; illl < dotsll.length; illl++) {
-      dotsll[illl].className = dotsll[illl].className.replace(" activelll", "");
+  for (illl = 0; illl < dotslll.length; illl++) {
+      dotslll[illl].className = dotslll[illl].className.replace(" activelll", "");
   }
   slideslll[slideIndexlll-1].style.display = "block";
   dotslll[slideIndexlll-1].className += " activelll";
-  captionTextlll.innerHTML = dotslll[slideIndexlll-1].alt;
-}</script>
+  captionText.innerHTML = dotslll[slideIndexlll-1].alt;
+}
+
+</script>
