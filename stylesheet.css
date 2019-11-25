@@ -210,6 +210,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             outline-color:black;
             outline-width: thick;
             box-decoration-break: slice;
+            padding-right: 33.42em;
         }
 
 
