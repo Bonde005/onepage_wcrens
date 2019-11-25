@@ -67,7 +67,7 @@
 }
 
 /* Next & previous buttons */
-.prev, .prevll, .next, .nextll, prevlll, nextlll {
+.prev, .prevll, .next, .nextll, .prevlll, .nextlll {
   cursor: pointer;
   position: absolute;
   top: 50%;
