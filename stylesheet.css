@@ -206,7 +206,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         }
 
         #overskrift {
-            background-color: #red;
+            background-color: #ff001a;
             grid-area: a;
             text-align: center;
             box-shadow:;
@@ -298,7 +298,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             padding-left: 2em;
         }
 
-
+/* test af comit i atom */
 
 
 
