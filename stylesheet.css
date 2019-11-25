@@ -156,7 +156,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         }
 
         body {
-            background-color: lightpink;
+            background-color: lightblue;
             padding-left: 6em;
             padding-right: 40em;
         }
@@ -206,7 +206,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         }
 
         #overskrift {
-            background-color: #ff001a;
+            background-color: lightpink;
             grid-area: a;
             text-align: center;
             box-shadow:;
@@ -268,7 +268,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         #de_venlige {
             background-color: transparent;
             grid-area: i;
-            padding-left: 2em;
+            padding-left: 0em;
         }
 
         #billeder {
@@ -296,6 +296,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         #copyright {
             grid-area: n;
             padding-left: 2em;
+            background-color: grey;
         }
 
 /* test af comit i atom */
