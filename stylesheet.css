@@ -14,9 +14,10 @@
   clear: both;
 }
 
-.column, .columnll, .columnlll {
+.column, .columnll, .columnlll{
   float: left;
-  width: 15%;
+  width: 15%
+
 }
 
 /* The Modal (background) */
@@ -39,7 +40,7 @@
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  width: 22%;
+  width: 60%;
   max-width: 1200px;
 }
 
@@ -137,7 +138,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             font-family: 'Josefin Sans', sans-serif;
         }
 
-        p, li, ul {
+        p, li {
             font-family: 'Didact Gothic', sans-serif;
             text-align: left;
             font-size: 1.0em;
@@ -153,6 +154,10 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             padding-right: 0.2em;
 
                   }
+
+        .billeder p {
+          font-size: 0.7em;
+        }
 
         #pagewrap {
             background-color: cornsilk;
@@ -257,6 +262,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             background-color: transparent;
             grid-area: i;
             padding-left: 2em;
+            padding-right: 1.5em;
         }
 
         #billeder {
@@ -264,10 +270,11 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             grid-area: j;
         }
 
-        #midten {
+        #Dem_i_midten {
             background-color: transparent;
             grid-area: k;
             padding-left: 2em;
+            padding-right: 1.5em;
         }
 
         #billeder_midten {
@@ -275,10 +282,11 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             grid-area: l;
         }
 
-        #faretruende {
+        #de_farlige {
             background-color: transparent;
             grid-area: m;
             padding-left: 2em;
+            padding-right: 1.5em;
         }
 
         #fakefooter {
@@ -318,38 +326,23 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         /* Tablet skærm over 500 pixels */
 
-        @media screen and (min-width: 501px) {
+        @media screen and (min-width: 500px) {
 
             #pagewrap {
-                display: grid;
-                grid-gap: 0.5em;
-                grid-template-areas:
-                    "a a a a"
-                    "a a a a"
-                    "a a a a"
-                    "b b b b"
-                    "b b b b"
-                    "c c c c"
-                    "c c c c"
-                    "d d d d"
-                    "d d d d"
-                    "e e e e"
-                    "e e e e"
-                    "f f f f"
-                    "f f f f"
-                    "g g g g"
-                    "g g g g"
-                    "h h h h"
-                    "h h h h"
-                    "i i i i"
-                    "j j j j"
-                    "k k k k"
-                    "l l l l"
-                    "m m m m"
-                    "n n n n"
-                    "n n n n";
-
             background-color: #b0a9de;
+            }
+
+            #svanemærke img {
+              width: 200%;
+            }
+
+            #blaakrans img, #Ecocert img, #solsikke img, #dem_i_midten img, #skadelige img {
+              width: 35%;
+            }
+
+            .modal-content, .modal-contentll, .modal-contentlll {
+              width: 35%;
+              max-width: 1000px;
             }
 
 
