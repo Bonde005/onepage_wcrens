@@ -136,62 +136,25 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         h1, h2 {
             font-family: 'Josefin Sans', sans-serif;
+            width: 100%;
         }
 
         p, li {
             font-family: 'Didact Gothic', sans-serif;
             text-align: left;
             font-size: 1.0em;
-            text-shadow: 1.0em;
-            text-align-last: left;
-            f
+            width: 100%;
         }
 
 
         body {
             background-color: lightblue;
-            padding-left: 0.2em;
-            padding-right: 0.2em;
-
+            border-style: solid;
+            border-width: 1px;
                   }
 
         .billeder p {
           font-size: 0.7em;
-        }
-
-        #pagewrap {
-            background-color: cornsilk;
-            padding-right: 18em;
-
-            /* margin-right: ; */
-            display: grid;
-            grid-template-columns: 2fr 1fr 1fr 2fr;
-            grid-template-rows: 10fr 15fr 10fr;
-            grid-template-areas:
-                "a a a a"
-                "a a a a"
-                "a a a a"
-                "b b b b"
-                "b b b b"
-                "c c c c"
-                "c c c c"
-                "d d d d"
-                "d d d d"
-                "e e e e"
-                "e e e e"
-                "f f f f"
-                "f f f f"
-                "g g g g"
-                "g g g g"
-                "h h h h"
-                "h h h h"
-                "i i i i"
-                "j j j j"
-                "k k k k"
-                "l l l l"
-                "m m m m"
-                "n n n n"
-                "n n n n";
         }
 
         header {
@@ -202,7 +165,9 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             border-style: outset;
             outline-color:black;
             outline-width: thick;
-            width: 83.8%;
+            width: 100%;
+            border-style: solid;
+            border-width: 0px 0px 1px 0px;
           /*  padding-right:; */
         }
 
@@ -210,92 +175,116 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         #indledning {
             background: transparent;
             grid-area: b;
-            padding-left: 2em;
-            padding-right: 1.5em;
+            padding-left: 0.2em;
+            padding-right:0.2em;
+            width: 97%;
+            border-style: solid;
+            border-width: 0px 0px 1px 0px;
         }
 
 
         #svane {
             background-color: transparent;
             grid-area: c;
-            padding-left: 2em;
-            padding-right: 1.5em;
+            padding-left: 0.2em;
+            padding-right:0.2em;
+            width: 97%;
+        }
+
+        #svane img {
+          width: 90%;
         }
 
 
         #blaakrans {
             background-color: transparent;
             grid-area: d;
-            padding-left: 2em;
-            padding-right: 1.5em;
+            padding-left: 0.2em;
+            padding-right:0.2em;
+            width: 97%;
         }
 
 
         #Ecocert {
             background-color: transparent;
             grid-area: e;
-            padding-left: 2em;
-            padding-right: 1.5em;
+            padding-left: 0.2em;
+            padding-right:0.2em;
+            width: 97%;
         }
 
 
         #solsikke {
             background-color: transparent;
             grid-area: f;
-            padding-left: 2em;
-            padding-right: 1.5;
+            padding-left: 0.2em;
+            padding-right:0.2em;
+            width: 97%;
+            border-style: solid;
+            border-width: 0px 0px 1px 0px;
         }
 
         #dem_i_midten {
             background-color: transparent;
             grid-area: g;
-            padding-left: 2em;
+            padding-left: 0.2em;
+            padding-right:0.2em;
+            width: 97%;
+            border-style: solid;
+            border-width: 0px 0px 1px 0px;
         }
 
         #skadelige {
             background-color: transparent;
             grid-area: h;
-            padding-left: 2em;
+            padding-left: 0.2em;
+            padding-right:0.2em;
+            width: 98%;
+            border-style: solid;
+            border-width: 0px 0px 1px 0px;
         }
 
         #de_venlige {
             background-color: transparent;
             grid-area: i;
-            padding-left: 2em;
-            padding-right: 1.5em;
-        }
-
-        #billeder {
-            background-color: transparent;
-            grid-area: j;
+            padding-left: 0.2em;
+            padding-right:0.2em;
+            width: 98%;
+            border-style: solid;
+            border-width: 0px 0px 1px 0px;
         }
 
         #Dem_i_midten {
             background-color: transparent;
-            grid-area: k;
-            padding-left: 2em;
-            padding-right: 1.5em;
-        }
-
-        #billeder_midten {
-            background-color: transparent;
-            grid-area: l;
+            grid-area: j;
+            padding-left: 0.2em;
+            padding-right:0.2em;
+            width: 98%;
+            border-style: solid;
+            border-width: 0px 0px 1px 0px;
         }
 
         #de_farlige {
             background-color: transparent;
-            grid-area: m;
-            padding-left: 2em;
-            padding-right: 1.5em;
+            grid-area: k;
+            padding-left: 0.2em;
+            padding-right:0.2em;
+            width: 98%;
+            border-style: solid;
+            border-width: 0px 0px 1px 0px;
         }
 
         #fakefooter {
           background-color: transparent;
-          grid-area: n;
-          padding-left: 2em;
+          grid-area: l;
+          padding-left: 0.2em;
+          padding-right:0.2em;
+          width: 98%;
           text-align: center;
           font-size: 0.8em;
           height: 55px;
+          border-style: solid;
+          border-width: 0px 0px 1px 0px;
         }
 
         footer {
@@ -324,27 +313,31 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
           border-color: lightpink;
         }
 
+        #pagewrap {
+            background-color: cornsilk;
+            display: grid;
+            margin: 0em;
+            grid-template-areas:
+                "a"
+                "b"
+                "c"
+                "d"
+                "e"
+                "f"
+                "g"
+                "h"
+                "i"
+                "j"
+                "k";
+        }
+
         /* Tablet skærm over 500 pixels */
 
         @media screen and (min-width: 500px) {
 
             #pagewrap {
             background-color: #b0a9de;
-            }
-
-            #svanemærke img {
-              width: 200%;
-            }
-
-            #blaakrans img, #Ecocert img, #solsikke img, #dem_i_midten img, #skadelige img {
-              width: 35%;
-            }
-
-            .modal-content, .modal-contentll, .modal-contentlll {
-              width: 30%;
-              max-width: 1000px;
-            }
-
+          }
 
             /*Desktop skærm over 1000 pixel*/
             @media screen and (min-width: 1000px) {
