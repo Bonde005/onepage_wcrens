@@ -206,10 +206,10 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         }
 
 
-        #svane: {
+        #svane {
             background-color: transparent;
             grid-area: c;
-            padding-left: 40em;
+            padding-left: 2em;
             padding-right: 1.5em;
         }
 
@@ -252,7 +252,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         #de_venlige {
             background-color: transparent;
             grid-area: i;
-            padding-left: 0em;
+            padding-left: 2em;
         }
 
         #billeder {
