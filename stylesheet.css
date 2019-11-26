@@ -258,7 +258,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             grid-area: j;
         }
 
-        #midten {
+        #Dem_i_midten {
             background-color: transparent;
             grid-area: k;
             padding-left: 2em;
@@ -269,7 +269,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             grid-area: l;
         }
 
-        #faretruende {
+        #de_farlige {
             background-color: transparent;
             grid-area: m;
             padding-left: 2em;
