@@ -144,7 +144,6 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             font-size: 1.0em;
             text-shadow: 1.0em;
             text-align-last: left;
-            f
         }
 
 
@@ -222,6 +221,11 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             padding-right: 1.5em;
         }
 
+<<<<<<< HEAD
+=======
+        #svane img {
+          width: 390px;
+>>>>>>> 52043a01b7b5f0632a5a8dbe410ca9a925da18c9
         }
 
         #blaakrans {
@@ -354,7 +358,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             }
 
             .modal-content, .modal-contentll, .modal-contentlll {
-              width: 35%;
+              width: 30%;
               max-width: 1000px;
             }
 
