@@ -135,7 +135,6 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         h1, h2 {
             font-family: 'Josefin Sans', sans-serif;
-            font-size: 1.5em;
         }
 
         p, li, ul {
@@ -147,13 +146,13 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         body {
             background-color: lightblue;
-            padding-left: 6em;
-            padding-right: 40em;
+
         }
 
         #pagewrap {
             background-color: cornsilk;
-            padding-right: 33.72em;
+            padding-right: 1em;
+            margin-right: ;
             display: grid;
             grid-template-columns: 2fr 1fr 1fr 2fr;
             grid-template-rows: 10fr 15fr 10fr;
@@ -184,7 +183,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
                 "n n n n";
         }
 
-        #overskrift {
+        header {
             background-color: lightpink;
             grid-area: a;
             text-align: center;
@@ -192,15 +191,13 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             border-style: outset;
             outline-color:black;
             outline-width: thick;
-            padding-right: 33.42em;
+            padding-right:;
         }
 
 
         #indledning {
             background: transparent;
             grid-area: b;
-            text-align: left;
-            font-size: 99%;
             padding-left: 2em;
             padding-right: 1.5em;
         }
@@ -339,4 +336,5 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
                 #pagewrap {
                     display: grid;
                     grid-gap: 0.5em;
+                    background-color: #b8b77f;
                 }
