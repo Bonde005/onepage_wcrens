@@ -1,3 +1,4 @@
+/* CSS til lightbox */
 .billeder {
   box-sizing: border-box;
     width: 100%;
@@ -130,22 +131,17 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-
-
-
-
-/* DERPASTES!! */
-
-
+/* CSS til selve siden (MOBIL-first)*/
 
         h1, h2 {
             font-family: 'Josefin Sans', sans-serif;
+            font-size: 1.5em;
         }
 
         p, li, ul {
             font-family: 'Didact Gothic', sans-serif;
             text-align: left;
+            font-size: 1.2em;
         }
 
 
@@ -155,15 +151,9 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             padding-right: 40em;
         }
 
-
-
-
         #pagewrap {
             background-color: cornsilk;
-            padding-right: 33.72em
-        }
-
-        #pagewrap {
+            padding-right: 33.72em;
             display: grid;
             grid-template-columns: 2fr 1fr 1fr 2fr;
             grid-template-rows: 10fr 15fr 10fr;
@@ -202,7 +192,6 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             border-style: outset;
             outline-color:black;
             outline-width: thick;
-            box-decoration-break: slice;
             padding-right: 33.42em;
         }
 
@@ -210,7 +199,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         #indledning {
             background: transparent;
             grid-area: b;
-            text-align: center;
+            text-align: left;
             font-size: 99%;
             padding-left: 2em;
             padding-right: 1.5em;
@@ -307,11 +296,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
           padding: 1px;
         }
 
-/* test af comit i atom */
-
-
-
-        /* en del der kun gælder hvis skærmen er over 500 pixels */
+        /* Tablet skærm over 500 pixels */
 
         @media screen and (min-width: 501px) {
 
@@ -347,6 +332,8 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             background-color: #b0a9de;
             }
 
+
+            /*Desktop skærm over 1000 pixel*/
             @media screen and (min-width: 1000px) {
 
                 #pagewrap {
