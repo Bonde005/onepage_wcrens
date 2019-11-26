@@ -356,10 +356,13 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
           width: 400px;
         }
 
-        .modal-content, .modal-contentll {
+        .modal-content, .modal-contentll,  {
           max-width: 300px;
         }
 
+        .modal-contentlll {
+          max-width: 280px;
+        }
             /*Desktop skærm over 1000 pixel*/
             @media screen and (min-width: 1000px) {
 
