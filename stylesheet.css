@@ -198,7 +198,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             background-color: lightpink;
             grid-area: a;
             text-align: center;
-            box-shadow:;
+            box-shadow: ;
             border-style: outset;
             outline-color:black;
             outline-width: thick;
@@ -213,6 +213,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             text-align: center;
             font-size: 99%;
             padding-left: 2em;
+            padding-right: 1.5em;
         }
 
 
@@ -220,6 +221,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             background-color: transparent;
             grid-area: c;
             padding-left: 40em;
+            padding-right: 1.5em;
         }
 
 
@@ -227,6 +229,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             background-color: transparent;
             grid-area: d;
             padding-left: 2em;
+            padding-right: 1.5em;
         }
 
 
@@ -234,6 +237,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             background-color: transparent;
             grid-area: e;
             padding-left: 2em;
+            padding-right: 1.5em;
         }
 
 
@@ -241,6 +245,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             background-color: transparent;
             grid-area: f;
             padding-left: 2em;
+            padding-right: 1.5;
         }
 
         #dem_i_midten {
