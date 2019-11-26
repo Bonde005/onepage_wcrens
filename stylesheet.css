@@ -104,7 +104,7 @@
   top: 0;
 }
 
-img {
+.billeder img {
   margin-bottom: -4px;
 }
 
@@ -274,13 +274,25 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             padding-left: 2em;
         }
 
+        #fakefooter {
+          background-color: transparent;
+          grid-area: n;
+          padding-left: 2em;
+          text-align: center;
+          font-size: 0.8em;
+          height: 55px;
+        }
+
         footer {
             position: fixed;
-            background-color: grey;
+            background-color: ;
             width: 100%;
             bottom: 0;
             left: 0;
             font-size: 0.8em;
+            text-align: center;
+            height: 30px;
+            padding-top: 0.7em;
           }
 
         footer a {
@@ -288,9 +300,13 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
           color: inherit;
           font-family: 'Didact Gothic', sans-serif;
           border-style: solid;
-          border-width: 0.5px;
+          border-width: 2px;
+          border-radius: 3px;
           font-size: 1.3em;
           padding: 1px;
+          background-color: cornsilk;
+          padding: 0.3em;
+          border-color: lightpink;
         }
 
         /* Tablet skærm over 500 pixels */
