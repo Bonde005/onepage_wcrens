@@ -153,6 +153,11 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         #svane img {
           width: 390px;
         }
+        #skadelige img {
+          width: 120px;
+
+
+        }
 
         body {
             background-color: lightblue;
