@@ -144,7 +144,6 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             font-size: 1.0em;
             text-shadow: 1.0em;
             text-align-last: left;
-            f
         }
 
 
@@ -222,6 +221,9 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             padding-right: 1.5em;
         }
 
+        #svane img {
+          width: 390px;
+        }
 
         #blaakrans {
             background-color: transparent;
