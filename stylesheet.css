@@ -344,6 +344,14 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             background-color: #b0a9de;
           }
 
+        #indledning, #svane, #blaakrans, #Ecocert, #solsikke, #dem_i_midten, #skadelige, #de_venlige, #Dem_i_midten, #de_farlige, #fakefooter {
+          width: 97.5%;
+        }
+
+        #svane img {
+          width: 50%;
+        }
+
 
 
 
@@ -354,7 +362,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
                 #pagewrap {
                     display: grid;
                     grid-gap: 0.5em;
-                    background-color: #b8b77f;
+                    background-color: #bfe3d1;
                 }
 
                 header {
