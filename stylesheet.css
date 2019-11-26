@@ -141,13 +141,18 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         p, li {
             font-family: 'Didact Gothic', sans-serif;
             text-align: left;
-            font-size: 1.2em;
+            font-size: 1.0em;
+            text-shadow: 1.0em;
+            text-align-last: left;
+            f
         }
 
 
         body {
             background-color: lightblue;
-            padding-left: 3em;
+            padding-left: 0.2em;
+            padding-right: 0.2em;
+
                   }
 
         .billeder p {
@@ -156,7 +161,8 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         #pagewrap {
             background-color: cornsilk;
-            padding-right: 33.72em;
+            padding-right: 18em;
+
             /* margin-right: ; */
             display: grid;
             grid-template-columns: 2fr 1fr 1fr 2fr;
@@ -196,6 +202,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             border-style: outset;
             outline-color:black;
             outline-width: thick;
+            width: 83.8%;
           /*  padding-right:; */
         }
 
