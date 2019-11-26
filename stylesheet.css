@@ -141,6 +141,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         h1, h2 {
             font-family: 'Josefin Sans', sans-serif;
             width: 100%;
+            font-size: 1.5em;
         }
 
         p, li {
@@ -297,8 +298,6 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
           text-align: center;
           font-size: 0.8em;
           height: 55px;
-          border-style: solid;
-          border-width: 0px 0px 1px 0px;
         }
 
         footer {
@@ -368,6 +367,27 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         .modal-contentlll {
           max-width: 280px;
         }
+
+        footer a {
+          font-size: 2em;
+        }
+
+        footer {
+          padding-bottom: 1.2em;
+        }
+
+        p, li {
+          font-size: 1.3em;
+        }
+
+        h1, h2 {
+          font-size: 2em;
+        }
+
+        #fakefooter {
+          height: 70px;
+        }
+
             /*Desktop skærm over 1000 pixel*/
             @media screen and (min-width: 1000px) {
 
