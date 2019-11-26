@@ -135,11 +135,13 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         h1, h2 {
             font-family: 'Josefin Sans', sans-serif;
+            font-size: 1.5em;
         }
 
         p, li, ul {
             font-family: 'Didact Gothic', sans-serif;
             text-align: left;
+            font-size: 1.2em;
         }
 
 
@@ -151,7 +153,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         #pagewrap {
             background-color: cornsilk;
-            padding-right: 33.72em
+            padding-right: 33.72em;
             display: grid;
             grid-template-columns: 2fr 1fr 1fr 2fr;
             grid-template-rows: 10fr 15fr 10fr;
@@ -325,7 +327,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             }
 
 
-            /*Desktop skærm over 1000 pixels*/
+            /*Desktop skærm over 1000 pixel*/
             @media screen and (min-width: 1000px) {
 
                 #pagewrap {
