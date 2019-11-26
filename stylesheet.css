@@ -262,6 +262,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             grid-area: j;
             padding-left: 0.2em;
             padding-right:0.2em;
+            padding-bottom: 0.5em;
             width: 98%;
             border-style: solid;
             border-width: 0px 0px 1px 0px;
@@ -275,6 +276,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             width: 98%;
             border-style: solid;
             border-width: 0px 0px 1px 0px;
+            padding-bottom: 0.5em;
         }
 
         #fakefooter {
@@ -341,6 +343,8 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             #pagewrap {
             background-color: #b0a9de;
           }
+
+
 
 
 
