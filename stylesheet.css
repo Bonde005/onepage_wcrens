@@ -14,9 +14,10 @@
   clear: both;
 }
 
-.column, .columnll, .columnlll {
+.column, .columnll, .columnlll{
   float: left;
-  width: 15%;
+  width: 15%
+
 }
 
 /* The Modal (background) */
@@ -39,7 +40,7 @@
   background-color: #fefefe;
   margin: auto;
   padding: 0;
-  width: 22%;
+  width: 60%;
   max-width: 1200px;
 }
 
