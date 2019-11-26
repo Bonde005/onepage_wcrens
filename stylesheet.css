@@ -280,37 +280,33 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
           padding-left: 2em;
           text-align: center;
           font-size: 0.8em;
-          height: 60px;
+          height: 55px;
         }
 
         footer {
             position: fixed;
-            background-color: grey;
+            background-color: ;
             width: 100%;
             bottom: 0;
             left: 0;
             font-size: 0.8em;
             text-align: center;
-            height: 55px;
+            height: 30px;
             padding-top: 0.7em;
           }
-
-        footer p {
-          text-align: center;
-          margin-top: 0.3em;
-        }
 
         footer a {
           text-decoration: none;
           color: inherit;
           font-family: 'Didact Gothic', sans-serif;
           border-style: solid;
-          border-width: 1.5px;
+          border-width: 2px;
           border-radius: 3px;
           font-size: 1.3em;
           padding: 1px;
-          background-color: white;
+          background-color: cornsilk;
           padding: 0.3em;
+          border-color: lightpink;
         }
 
         /* Tablet skærm over 500 pixels */
