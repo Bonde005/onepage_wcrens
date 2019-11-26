@@ -348,10 +348,6 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         @media screen and (min-width: 500px) {
 
-            #pagewrap {
-            background-color: #b0a9de;
-          }
-
         #indledning, #svane, #blaakrans, #Ecocert, #solsikke, #dem_i_midten, #skadelige, #de_venlige, #Dem_i_midten, #de_farlige, #fakefooter {
           width: 97.5%;
         }
@@ -386,6 +382,10 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         #fakefooter {
           height: 70px;
+        }
+
+        .billeder p {
+          font-size: 0.9em;
         }
 
             /*Desktop skærm over 1000 pixel*/
