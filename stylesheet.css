@@ -171,7 +171,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         }
 
         header {
-            background-color: #ffd1dc;
+            background-color: #ffc7c7;
             grid-area: header;
             text-align: center;
             box-shadow: ;
@@ -329,7 +329,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
           padding: 1px;
           background-color: #fffeeb;
           padding: 0.3em;
-          border-color: #ffd1dc;
+          border-color: #ffc7c7;
         }
 
         #pagewrap {
@@ -452,8 +452,8 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
                 #originalfooter {
                   border-style: solid;
-                  border-color: #ffd1dc;
-                  border-width: 2px 2px 0px 2px;
+                  border-top-color: #ffc7c7;
+                  border-width: 2px 1px 0px 1px;
                   background-color: #fffeeb;
                   bottom: 0em;
                   padding-top: 0.5em;
