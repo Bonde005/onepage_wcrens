@@ -267,9 +267,9 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             border-width: 0px 0px 1px 0px;
         }
 
-        #Dem_i_midten {
+        #midten {
             background-color: transparent;
-            grid-area: Dem_i_midten;
+            grid-area: midten;
             padding-left: 0.5em;
             padding-right:0.5em;
             padding-bottom: 0.5em;
@@ -340,7 +340,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
                 "dem_i_midten"
                 "skadelige"
                 "de_venlige"
-                "Dem_i_midten"
+                "midten"
                 "fakefooter";
         }
 
@@ -348,7 +348,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         @media screen and (min-width: 500px) {
 
-        #indledning, #svane, #blaakrans, #Ecocert, #solsikke, #dem_i_midten, #skadelige, #de_venlige, #Dem_i_midten, #de_farlige, #fakefooter {
+        #indledning, #svane, #blaakrans, #Ecocert, #solsikke, #dem_i_midten, #skadelige, #de_venlige, #midten, #de_farlige, #fakefooter {
           width: 97.5%;
         }
 
