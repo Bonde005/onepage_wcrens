@@ -161,7 +161,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         }
 
         body {
-            background-color: lightblue;
+            background-color: #cfebff;
             border-style: solid;
             border-width: 1px;
                   }
@@ -171,7 +171,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         }
 
         header {
-            background-color: lightpink;
+            background-color: #ffc7c7;
             grid-area: header;
             text-align: center;
             box-shadow: ;
@@ -181,7 +181,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             width: 100%;
             border-style: solid;
             border-width: 0px 0px 1px 0px;
-          /*  padding-right:; */
+
         }
 
 
@@ -327,13 +327,13 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
           border-radius: 3px;
           font-size: 1.05em;
           padding: 1px;
-          background-color: cornsilk;
+          background-color: #fcfce3;
           padding: 0.3em;
           border-color: lightpink;
         }
 
         #pagewrap {
-            background-color: cornsilk;
+            background-color: #fcfce3;
             display: grid;
             margin: 0em;
             grid-template-areas:
@@ -453,9 +453,9 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
                 #originalfooter {
                   border-style: solid;
-                  border-color: lightpink;
-                  border-width: 2px 2px 0px 2px;
-                  background-color: cornsilk;
+                  border-top-color: #ffc7c7;
+                  border-width: 2px 1px 0px 1px;
+                  background-color: #fcfce3;
                   bottom: 0em;
                   padding-top: 0.5em;
                   padding-right;
