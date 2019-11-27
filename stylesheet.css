@@ -1,5 +1,5 @@
 /* CSS til lightbox */
-.billeder #billeder_venlig {
+.billeder, #billeder_venlig {
   box-sizing: border-box;
     width: 100%;
 }
@@ -267,6 +267,10 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             border-width: 0px 0px 1px 0px;
         }
 
+        #billeder_venlig {
+          grid-area: venligbilleder;
+        }
+
         #Dem_i_midten {
             background-color: transparent;
             grid-area: Dem_i_midten;
@@ -340,7 +344,9 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
                 "dem_i_midten"
                 "skadelige"
                 "de_venlige"
+                "venligbilleder"
                 "Dem_i_midten"
+                "de_farlige"
                 "fakefooter";
         }
 
@@ -391,38 +397,22 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             /*Desktop skærm over 1000 pixel*/
             @media screen and (min-width: 1000px) {
 
-              #billeder_venlig {
-                grid-area: venligbilleder;
-              }
+
 
                 #pagewrap {
-                    display: grid;
-                    grid-gap: 0.5em;
                     background-color: #bfe3d1;
                     grid-column: 1fr 1fr;
                     grid-template-areas:
-                    "a a"
-                    "b c"
-                    "b c"
-                    "d d"
-                    "e e"
-                    "f f"
-                    "g g"
-                    "h h"
-                    "i venligbilleder"
-                    "j j"
-                    "k k" ;
-                }
-
-
-
-                header {
-                    background-color: lightpink;
-                    grid-area: a;
-                    text-align: center;
-                    box-shadow: ;
-                    border-style: outset;
-                    outline-color:black;
-                    outline-width: thick;
-                    width: 142%;
+                        "header header"
+                        "indledning indledning"
+                        "svane svane"
+                        "blaakrans blaakrans"
+                        "ecocert ecocert"
+                        "solsikke solsikke"
+                        "dem_i_midten dem_i_midten"
+                        "skadelige skadelige"
+                        "de_venlige venligbilleder"
+                        "Dem_i_midten Dem_i_midten"
+                        "de_farlige de_farlige"
+                        "fakefooter fakefooter";
                 }
