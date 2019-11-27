@@ -241,6 +241,8 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             border-width: 0px 0px 1px 0px;
         }
 
+
+
         #skadelige {
             background-color: transparent;
             grid-area: skadelige;
@@ -255,12 +257,13 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             grid-area: de_venlige;
             padding-left: 0.5em;
             padding-right:0.5em;
-            border-style: solid;
-            border-width: 0px 0px 1px 0px;
+
         }
 
         #billeder_venlig {
           grid-area: venligbilleder;
+          border-style: solid;
+          border-width: 0px 0px 1px 0px;
         }
 
         #midten {
@@ -269,8 +272,13 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             padding-left: 0.5em;
             padding-right:0.5em;
             padding-bottom: 0.5em;
-            border-style: solid;
-            border-width: 0px 0px 1px 0px;
+
+        }
+
+        #billeder_midten {
+          grid-area: billeder_midten;
+          border-style: solid;
+          border-width: 0px 0px 1px 0px;
         }
 
         #de_farlige {
@@ -278,9 +286,14 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             grid-area: de_farlige;
             padding-left: 0.5em;
             padding-right:0.5em;
-            border-style: solid;
-            border-width: 0px 0px 1px 0px;
+
             padding-bottom: 0.5em;
+        }
+
+        #billeder_farlige {
+          grid-area: billeder_farlige;
+          border-style: solid;
+          border-width: 0px 0px 1px 0px;
         }
 
         #fakefooter {
@@ -335,7 +348,9 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
                 "de_venlige"
                 "venligbilleder"
                 "midten"
+                "billeder_midten"
                 "de_farlige"
+                "billeder_farlige"
                 "fakefooter";
         }
 
@@ -397,7 +412,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
                         "dem_i_midten dem_i_midten"
                         "skadelige skadelige"
                         "de_venlige venligbilleder"
-                        "midten midten"
-                        "de_farlige de_farlige"
+                        "midten billeder_midten"
+                        "de_farlige billeder_farlige"
                         "fakefooter fakefooter";
                 }
