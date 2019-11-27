@@ -172,7 +172,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         header {
             background-color: lightpink;
-            grid-area: a;
+            grid-area: header;
             text-align: center;
             box-shadow: ;
             border-style: outset;
@@ -187,7 +187,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         #indledning {
             background: transparent;
-            grid-area: b;
+            grid-area: indledning;
             padding-left: 0.5em;
             padding-right:0.5em;
             width: 96.5%;
@@ -198,7 +198,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         #svane {
             background-color: transparent;
-            grid-area: c;
+            grid-area: svane;
             padding-left: 0.5em;
             padding-right:0.5em;
             width: 96.5%;
@@ -211,7 +211,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         #blaakrans {
             background-color: transparent;
-            grid-area: d;
+            grid-area: blaakrans;
             padding-left: 0.5em;
             padding-right:0.5em;
             width: 96.5%;
@@ -220,7 +220,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         #Ecocert {
             background-color: transparent;
-            grid-area: e;
+            grid-area: ecocert;
             padding-left: 0.5em;
             padding-right:0.5em;
             width: 97%;
@@ -229,7 +229,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         #solsikke {
             background-color: transparent;
-            grid-area: f;
+            grid-area: solsikke;
             padding-left: 0.5em;
             padding-right:0.5em;
             width: 96.5%;
@@ -239,7 +239,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         #dem_i_midten {
             background-color: transparent;
-            grid-area: g;
+            grid-area: dem_i_midten;
             padding-left: 0.5em;
             padding-right:0.5em;
             width: 96.5%;
@@ -249,7 +249,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         #skadelige {
             background-color: transparent;
-            grid-area: h;
+            grid-area: skadelige;
             padding-left: 0.5em;
             padding-right:0.5em;
             width: 96.5%;
@@ -259,7 +259,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         #de_venlige {
             background-color: transparent;
-            grid-area: i;
+            grid-area: de_venlige;
             padding-left: 0.5em;
             padding-right:0.5em;
             width: 96.5%;
@@ -269,7 +269,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         #Dem_i_midten {
             background-color: transparent;
-            grid-area: j;
+            grid-area: Dem_i_midten;
             padding-left: 0.5em;
             padding-right:0.5em;
             padding-bottom: 0.5em;
@@ -280,7 +280,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         #de_farlige {
             background-color: transparent;
-            grid-area: k;
+            grid-area: de_farlige;
             padding-left: 0.5em;
             padding-right:0.5em;
             width: 96.5%;
@@ -291,7 +291,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
         #fakefooter {
           background-color: transparent;
-          grid-area: l;
+          grid-area: fakefooter;
           padding-left: 0.5em;
           padding-right:0.5em;
           width: 96.5%;
@@ -331,17 +331,17 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             display: grid;
             margin: 0em;
             grid-template-areas:
-                "a"
-                "b"
-                "c"
-                "d"
-                "e"
-                "f"
-                "g"
-                "h"
-                "i"
-                "j"
-                "k";
+                "header"
+                "indledning"
+                "svane"
+                "blaakrans"
+                "ecocert"
+                "solsikke"
+                "dem_i_midten"
+                "skadelige"
+                "de_venlige"
+                "Dem_i_midten"
+                "fakefooter";
         }
 
         /* Tablet skærm over 500 pixels */
