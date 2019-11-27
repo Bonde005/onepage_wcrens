@@ -403,21 +403,26 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
                     background-color: #bfe3d1;
                     grid-column: 1fr 1fr;
                     grid-template-areas:
-                        "header header"
-                        "indledning indledning"
-                        "svane svane"
-                        "blaakrans blaakrans"
-                        "ecocert ecocert"
-                        "solsikke solsikke"
-                        "dem_i_midten dem_i_midten"
-                        "skadelige skadelige"
-                        "de_venlige venligbilleder"
-                        "midten billeder_midten"
-                        "de_farlige billeder_farlige"
-                        "fakefooter fakefooter";
+                        "header header header"
+                        "indledning indledning indledning"
+                        "svane svane svane"
+                        "blaakrans blaakrans blaakrans"
+                        "ecocert ecocert ecocert"
+                        "solsikke solsikke solsikke"
+                        "dem_i_midten dem_i_midten dem_i_midten"
+                        "skadelige skadelige skadelige"
+                        "de_venlige venligbilleder venligbilleder"
+                        "midten billeder_midten billeder_midten"
+                        "de_farlige billeder_farlige billeder_farlige"
+                        "fakefooter fakefooter fakefooter";
                 }
 
                 #de_venlige, #midten, #de_farlige {
                   border-style: solid;
                   border-width: 0px 0px 1px 0px;
+                }
+
+                #billeder_venlig, #billeder_midten, #billeder_farlige {
+                  padding-top: 5.5em;
+                  padding-left: 3em;
                 }
