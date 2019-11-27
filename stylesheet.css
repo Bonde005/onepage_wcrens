@@ -438,3 +438,19 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
                 #billeder_venlig p, #billeder_midten p, #billeder_farlige p {
                   font-size: 1em;
                 }
+
+                footer a {
+                  border: none;
+                  font-size: 1.5em;
+                  background-color: transparent;
+                  padding-top: 1em;
+               }
+
+                footer {
+                  border-style: solid;
+                  border-color: lightpink;
+                  border-width: 2px 2px 0px 2px;
+                  background-color: cornsilk;
+                  margin-left: 9.4em;
+                  margin-right: 7em;
+                }
