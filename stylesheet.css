@@ -354,7 +354,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
                 "fakefooter";
         }
 
-        /* Tablet skærm over 500 pixels */
+        /* Tablet skærm over 500 pixels (Tablet version)*/
 
         @media screen and (min-width: 500px) {
 
@@ -387,7 +387,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         }
 
         #fakefooter {
-          height: 70px;
+          height: 85px;
         }
 
         .billeder p {
@@ -415,4 +415,9 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
                         "midten billeder_midten"
                         "de_farlige billeder_farlige"
                         "fakefooter fakefooter";
+                }
+
+                #de_venlige, #midten, #de_farlige {
+                  border-style: solid;
+                  border-width: 0px 0px 1px 0px;
                 }
