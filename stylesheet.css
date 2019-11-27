@@ -190,7 +190,6 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             grid-area: indledning;
             padding-left: 0.5em;
             padding-right:0.5em;
-            width: 96.5%;
             border-style: solid;
             border-width: 0px 0px 1px 0px;
         }
@@ -201,7 +200,6 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             grid-area: svane;
             padding-left: 0.5em;
             padding-right:0.5em;
-            width: 96.5%;
         }
 
         #svane img {
@@ -214,7 +212,6 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             grid-area: blaakrans;
             padding-left: 0.5em;
             padding-right:0.5em;
-            width: 96.5%;
         }
 
 
@@ -223,7 +220,6 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             grid-area: ecocert;
             padding-left: 0.5em;
             padding-right:0.5em;
-            width: 97%;
         }
 
 
@@ -232,7 +228,6 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             grid-area: solsikke;
             padding-left: 0.5em;
             padding-right:0.5em;
-            width: 96.5%;
             border-style: solid;
             border-width: 0px 0px 1px 0px;
         }
@@ -242,7 +237,6 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             grid-area: dem_i_midten;
             padding-left: 0.5em;
             padding-right:0.5em;
-            width: 96.5%;
             border-style: solid;
             border-width: 0px 0px 1px 0px;
         }
@@ -252,7 +246,6 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             grid-area: skadelige;
             padding-left: 0.5em;
             padding-right:0.5em;
-            width: 96.5%;
             border-style: solid;
             border-width: 0px 0px 1px 0px;
         }
@@ -262,7 +255,6 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             grid-area: de_venlige;
             padding-left: 0.5em;
             padding-right:0.5em;
-            width: 96.5%;
             border-style: solid;
             border-width: 0px 0px 1px 0px;
         }
@@ -277,7 +269,6 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             padding-left: 0.5em;
             padding-right:0.5em;
             padding-bottom: 0.5em;
-            width: 96.5%;
             border-style: solid;
             border-width: 0px 0px 1px 0px;
         }
@@ -287,7 +278,6 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             grid-area: de_farlige;
             padding-left: 0.5em;
             padding-right:0.5em;
-            width: 96.5%;
             border-style: solid;
             border-width: 0px 0px 1px 0px;
             padding-bottom: 0.5em;
@@ -298,7 +288,6 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
           grid-area: fakefooter;
           padding-left: 0.5em;
           padding-right:0.5em;
-          width: 96.5%;
           text-align: center;
           font-size: 0.8em;
           height: 62px;
@@ -323,7 +312,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
           border-style: solid;
           border-width: 2px;
           border-radius: 3px;
-          font-size: 1.3em;
+          font-size: 1.05em;
           padding: 1px;
           background-color: cornsilk;
           padding: 0.3em;
@@ -353,10 +342,6 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
         /* Tablet skærm over 500 pixels */
 
         @media screen and (min-width: 500px) {
-
-        #indledning, #svane, #blaakrans, #Ecocert, #solsikke, #dem_i_midten, #skadelige, #de_venlige, #midten, #de_farlige, #fakefooter {
-          width: 97.5%;
-        }
 
         #svane img {
           width: 400px;
