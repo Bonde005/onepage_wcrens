@@ -401,7 +401,9 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
                 border: none;
               }
 
-              
+              #svane img {
+                grid-area: svanebilleder;
+              }
 
                 #pagewrap {
                     background-color: #bfe3d1;
@@ -413,7 +415,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
                     grid-template-areas:
                         "header header header"
                         "indledning indledning indledning"
-                        "svane svane svane"
+                        "svane svane svanebillede"
                         "blaakrans blaakrans blaakrans"
                         "ecocert ecocert ecocert"
                         "solsikke solsikke solsikke"
