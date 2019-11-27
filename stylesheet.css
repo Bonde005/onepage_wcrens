@@ -267,6 +267,10 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             border-width: 0px 0px 1px 0px;
         }
 
+        #billeder_venlig {
+          grid-area: venligbilleder;
+        }
+
         #midten {
             background-color: transparent;
             grid-area: midten;
@@ -341,7 +345,7 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
                 "skadelige"
                 "de_venlige"
                 "venligbilleder"
-                "Dem_i_midten"
+                "midten"
                 "de_farlige"
                 "fakefooter";
         }
