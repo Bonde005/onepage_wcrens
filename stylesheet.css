@@ -443,14 +443,27 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
                   border: none;
                   font-size: 1.5em;
                   background-color: transparent;
-                  padding-top: 1em;
+
                }
 
-                footer {
+               #fakefooter {
+                 height: 80px;
+               }
+
+
+                #originalfooter {
                   border-style: solid;
                   border-color: lightpink;
                   border-width: 2px 2px 0px 2px;
                   background-color: cornsilk;
-                  margin-left: 9.4em;
-                  margin-right: 7em;
+                  bottom: 0em;
+                  padding-top: 0.5em;
+                  padding-right;
+                  height: 32px;
+                  text-align:center;
+                  clear: both;
+                  position: fixed;
+                  left: 9.4em;
+                  right: 9.4em;
                 }
+              }
