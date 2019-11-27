@@ -1,5 +1,5 @@
 /* CSS til lightbox */
-.billeder {
+.billeder #billeder_venlig {
   box-sizing: border-box;
     width: 100%;
 }
@@ -391,11 +391,30 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
             /*Desktop skærm over 1000 pixel*/
             @media screen and (min-width: 1000px) {
 
+              #billeder_venlig {
+                grid-area: venligbilleder;
+              }
+
                 #pagewrap {
                     display: grid;
                     grid-gap: 0.5em;
                     background-color: #bfe3d1;
+                    grid-column: 1fr 1fr;
+                    grid-template-areas:
+                    "a a"
+                    "b c"
+                    "b c"
+                    "d d"
+                    "e e"
+                    "f f"
+                    "g g"
+                    "h h"
+                    "i venligbilleder"
+                    "j j"
+                    "k k" ;
                 }
+
+
 
                 header {
                     background-color: lightpink;
