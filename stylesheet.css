@@ -399,7 +399,11 @@ img.hover-shadow, img.hover-shadowll, img.hover-shadowlll {
 
               body {
                 border: none;
-              }
+                background-color: none;
+                background-image: url(Billeder/skyer.JPG.png);
+       }
+
+
 
 
 
