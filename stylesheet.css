@@ -1,11 +1,11 @@
 /* CSS til lightbox */
-.billeder, #billeder_venlig {
+#billeder_midten, #billeder_farlige, #billeder_venlig {
   box-sizing: border-box;
     width: 100%;
 }
 
 .row > .column, .rowll > .columnll, .rowlll > .columnlll {
-  padding: 2.5px 2.5px;
+  padding: 1px 1px;
 }
 
 .row:after, .rowll:after, .rowlll:after {
